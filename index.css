@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background: #9897a9;
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal > h3{
+    font-size: 35px;
+}
+
+.personal > p{
+    font-size: 25px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+button{
+    height: 5rem;
+    width: 25rem;
+    border: none;
+    border-radius: 10px;
+    margin: 1rem;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+    padding: 0.5rem;    
+}
+
+button:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.photo {
+    margin-top: 25px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    height: 125px;
+    width: 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.linktree {
+    height: 95px;
+    width: 95px;
+    border: 2px double #000;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
